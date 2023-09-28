@@ -1,27 +1,37 @@
-header{
+body {
     font-family: arial, sans-serif;
+}
+
+header {
     font-size: 4em;
     text-align: center;
-    background-color: #b5651d ;
+    background-color: #b5651d;
 }
-.callout {
-padding: 2px, 3px;
-border: 3px solid black;
+
+header {
+    padding: 2px 3px;
+    border: 3px solid black;
 }
-#author{
+
+#author {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 10px;
     text-align: center;
-    color:red
+    color: red
 }
-h1{
+
+h1 {
     font-family: sans-serif, helvetica;
     font-size: 2em;
     text-align: center;
-    color:black;
+    color: black;
 }
+
 h2 {
     border: 0.1em solid black;
-    background-color: #FFA500 ;
+    background-color: #FFA500;
+}
 
+img {
+    width: 25%
 }
