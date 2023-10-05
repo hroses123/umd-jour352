@@ -1,12 +1,20 @@
-.logo{
-    text-align: center;
-}
-header{
-font-size: 5em;
-text-align: center;
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+Body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+header img{
+    text-align: center;
+    width: 35%;
+    margin: 0 auto; 
+    display: block; 
+}
+h1{
+font-size: 7em;
+text-align: center;
+border: 0.05em solid turquoise;
+    background-color: turquoise;
+}
 .motto{
     font-size: 3.75em;
     text-align: center;
@@ -15,26 +23,21 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
     background-color: turquoise;
     color:blue
 }
-.home{
-    font-size: 1.75em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.logo{
     text-align: center;
-
 }
-.menu{
+
+h2{
     font-size: 1.75em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
-
-
+    
 }
-.order online{
-    font-size: 1.75em;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
+
+h2,
 h3{
     font-size: 2em;
     text-align: center;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0.05em solid rgb(116, 149, 238);
+    background-color: rgb(116, 149, 238)
 }
 
