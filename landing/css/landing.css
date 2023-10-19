@@ -1,42 +1,37 @@
 Body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-header img {
+header,
+.footer{
     text-align: center;
+    margin: 2em;
+}
+header img {
     width: 35%;
     margin: 0 auto;
     display: block;
 }
 h1 {
     font-size: 7em;
-    text-align: center;
     border: 0.05em solid turquoise;
     background-color: turquoise;
 }
 .motto {
-    font-size: 3.75em;
-    text-align: center;
+    font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
-    border: 0.1em solid turquoise;
     background-color: turquoise;
-    color: blue
-}
-.logo {
-    text-align: center;
+    color: blue;
 }
 h2 {
     font-size: 1.75em;
-    text-align: center;
 }
 h2,
 h3 {
     font-size: 2em;
-    text-align: center;
     border: 0.05em solid rgb(116, 149, 238);
     background-color: rgb(116, 149, 238)
 }
 .footer {
-    text-align: center;
     font-size: 1em;
-    border: 0.05em solid black
+    border: 0.05em solid black;
 }
