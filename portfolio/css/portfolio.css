@@ -5,14 +5,15 @@ body{
 }
 header,
 .footer{
-    text-align: center;
-    margin: 2em;
+    margin: 0 2em;
     color: #ffc9e0;
+    text-align: center;
 }
 h1{
-    margin: 1em 0;
+    margin: 0em 0;
     text-align: center;
     font-size: 3em;
+    padding: 0 0 1em 0;
 }
 h3{
     font-size: 1.75em;
@@ -32,4 +33,41 @@ nav a{
 nav{
     text-align: center;
     margin: 0 0 2em 0;
+}
+a{
+    font-weight: bold;
+    color:blue;
+    text-decoration: none;
+}
+.about{
+    padding: 0 2em;
+    margin: 0 0 2em 0;
+    text-align: center;
+    font-size: 1em;
+    background-color: #ffc9e0;
+    color:#ff7918
+}
+.resume,
+.experience,
+.leadership,
+.awards,
+.skills{
+    margin: 0 0 2em 0;
+    padding: 0 2em;
+}
+h2{
+    text-align: center;
+    color:#ff7918;
+    background-color: #ffc9e0;
+}
+
+.h1clips{
+    font-size: 2em;
+    margin-top: 2em;
+}
+h6{
+    margin: 0 0 0 2em;
+    text-align: center;
+
+
 }
