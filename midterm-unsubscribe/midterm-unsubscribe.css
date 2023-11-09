@@ -1,79 +1,102 @@
-Body{
+Body {
     font-family: Roboto;
     font-weight: 400;
     font-size: 15px;
     text-align: center;
 }
-header{
+
+header {
     color: #FCFDFE;
     background-color: black;
     font-family: inconsolata;
     font-weight: 400;
-    min-height: 100vh;
     text-align: center;
-    padding: 0 0 5% 0;
 }
-header img{
+
+.header {
+    min-height: 100vh;
+}
+
+header img {
     margin: 0 0 5% 0;
     background-color: black;
 }
-h1{
-    padding: 4% 0 4% 0;
+
+h1 {
     font-family: inconsolata;
     font-weight: 700;
     font-size: 4em;
-    /* tablet, mobile, desktop */
+    padding: 5% 0 5% 0;
 }
-#intro{
-text-align: center;
-font-family: inconsolata;
-padding: 2em 0 0 0;
+
+#intro {
+    text-align: center;
+    font-family: inconsolata;
 }
-.subhead{
-font-weight: 500;
+
+.subhead {
+    font-weight: 500;
 }
-.byline{
+
+.byline {
     font-weight: 300;
     letter-spacing: 1px;
     font-size: 0.85em;
     padding: 1em 0 2em 0;
 }
-.results{
-    padding: 2em 0 0 0;
+
+.results {
     background-color: black;
-    color:#FCFDFE;
+    color: #FCFDFE;
     min-height: 80vh;
 }
-h2{
+
+h2 {
     padding: 4% 0 4% 0;
     font-weight: 700;
     font-size: 1.75;
     text-align: center;
 }
-h3{
-   font-size: 1.5em;
+
+h3 {
+    font-size: 1.5em;
 }
-footer{
-    margin: 4em 0 0 0;
+
+footer {
     text-align: center;
-    padding: 0 0 4em 0;
+    padding: 5%;
     font-size: 0.85em;
 }
-.blockquote{
+
+blockquote {
     font-weight: 700;
     font-size: 1em;
+    color: #db5461;
 }
-a{
-    color: red;
-    text-decoration: none;
-}
-@media (max-width: 768px){
-    .container{
-        content:75%
+
+@media (max-width: 768px) {
+    .container {
+        content: 75%
+    }
+
+    h1 {
+        font-size: 2em;
     }
 }
-@media (max-width: 576px){
-    .container{
-        content: 95%
+
+@media (max-width: 576px) {
+    .container {
+        content: 93%
     }
+
+    h1 {
+        font-weight: 800;
+        font-size: 1em;
+    }
+}
+#datawrapper-chart-RwGJ1{
+    color: white;
+}
+.iframe.container {
+    background-color: black;
 }
