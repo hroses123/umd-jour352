@@ -1,5 +1,5 @@
 Body {
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif; 
     font-weight: 400;
     font-size: 15px;
     text-align: center;
@@ -8,7 +8,7 @@ Body {
 header {
     color: #FCFDFE;
     background-color: black;
-    font-family: inconsolata;
+    font-family: 'Inconsolata', monospace;
     font-weight: 400;
     text-align: center;
 }
@@ -23,7 +23,8 @@ header img {
 }
 
 h1 {
-    font-family: inconsolata;
+    font-family: 'Inconsolata', monospace;
+
     font-weight: 700;
     font-size: 4em;
     padding: 5% 0 5% 0;
@@ -31,11 +32,13 @@ h1 {
 
 #intro {
     text-align: center;
-    font-family: inconsolata;
+    font-family: 'Inconsolata', monospace;
+
 }
 
 .subhead {
     font-weight: 500;
+    font-family: 'Inconsolata', monospace;    
 }
 
 .byline {
@@ -54,12 +57,16 @@ h1 {
 h2 {
     padding: 4% 0 4% 0;
     font-weight: 700;
+    font-family: 'Inconsolata', monospace;    
     font-size: 1.75;
     text-align: center;
 }
 
 h3 {
     font-size: 1.5em;
+    font-size: 1.5;
+    font-family: 'Inconsolata', monospace;    
+
 }
 
 footer {
@@ -67,11 +74,17 @@ footer {
     padding: 5%;
     font-size: 0.85em;
 }
+footer a{
+    color: #db5461;
+    text-decoration: none;
+}
 
 blockquote {
     font-weight: 700;
-    font-size: 1em;
+    font-size: 1;
     color: #db5461;
+    font-family: 'Inconsolata', monospace;    
+
 }
 
 @media (max-width: 768px) {
