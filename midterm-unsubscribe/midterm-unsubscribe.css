@@ -73,6 +73,7 @@ footer {
     text-align: center;
     padding: 5%;
     font-size: 0.85em;
+    font-family: 'Inconsolata', monospace;    
 }
 footer a{
     color: #db5461;
