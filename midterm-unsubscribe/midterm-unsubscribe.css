@@ -87,6 +87,10 @@ blockquote {
     font-family: 'Inconsolata', monospace;    
 
 }
+.graphic{
+    padding: 5%;
+    background-color: black;
+}
 
 @media (max-width: 768px) {
     .container {
@@ -108,7 +112,4 @@ blockquote {
         font-size: 1em;
     }
 }
-#datawrapper-chart-RwGJ1{
-    color: #FCFDFE;
-    padding: 5%;
-}
+
