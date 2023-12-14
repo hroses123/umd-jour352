@@ -1,4 +1,4 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
     background-color: antiquewhite;
     font-size: 20px;
@@ -11,7 +11,7 @@ header {
     color: antiquewhite;
     background-color: black;
 }
-.header{
+.header {
     min-height: 100vh;
 }
 .byline {
@@ -22,45 +22,45 @@ header {
     padding: 2em 0 3em 0;
     color: antiquewhite;
 }
-h2{
+h2 {
     font-family: 'inconsolata', sans-serif;
     padding: 1em 0 1em 0;
     border: solid black;
     text-align: center;
     background-color: black;
-    color:antiquewhite
+    color: antiquewhite
 }
-.row{
+.row {
     padding: 4em 0 0 0;
 }
-.intro{
+.intro {
     padding: 2%;
 }
-.graphic{
+.graphic {
     padding: 4em 0 0 0;
 }
-.carousel{
+.carousel {
     padding: 4%;
     text-align: center;
 }
-h3{
+h3 {
     font-family: 'inconsolata', sans-serif;
-    padding: 6em 0 15.71em 0;
+    padding: 6em 0 15.1em 0;
     border: solid black;
     text-align: center;
     background-color: black;
-    color:antiquewhite
+    color: antiquewhite
 }
-footer{
+footer {
     text-align: center;
     font-family: 'inconsolata', sans-serif;
 }
-h5{
+h5 {
     padding: 3em 0 0 2em;
 }
-h6{
+h6 {
     padding: 2em 0 1em 2em;
 }
-a{
+a {
     text-decoration: none;
 }
